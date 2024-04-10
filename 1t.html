@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1t</title>
+  <style>
+    body{
+      height: 3000px;
+
+    }
+    .div2{
+      background-color: green;
+      color: white;
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100px;
+    }
+    .overlay{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+
+    }
+    .warning{
+      background-color: white;
+      width: 500px;
+      height: 180px;
+      color: black;
+      border: none;
+      border-radius: 10px;
+    }
+    .same{
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="div2">right sidebar</div>
+  <div class="overlay">
+    <div class="warning">
+      <h1 class="same">Modal Title</h1>
+      <p class="same">this is a modal</p>
+      <button class="same">close</button>
+    </div>
+  </div>
+</body>
+</html>

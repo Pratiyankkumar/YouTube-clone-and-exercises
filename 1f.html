@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .req{
+      margin-top: 0;
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+    .pickup,.destination{
+      width: 350px;
+      display: block;
+      height: 30px;
+      padding-left: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+      color: black;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      outline: none;
+    }
+    .pickup:active,.destination:active{
+      border-color: transparent;
+      outline: none;
+    }
+    .pickup{
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    .request{
+      width: 120px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      margin-top: 15px;
+    }
+    .Schedule{
+      width: 180px;
+      height: 40px;
+      background-color: rgba(0, 0, 0, 0.1);
+      color : black;
+      border: none;
+      border-style: solid;
+      margin-left: 20px;
+      border-color: transparent;
+
+    }
+  </style>
+</head>
+<body>
+  <p class="req">Request a ride now</p>
+  <input type="text" class="pickup" placeholder="Enter pickup location">
+  <input type="text" placeholder="Enter Destination" class="destination">
+  <button class="request">Request Now</button>
+  <button class="Schedule">Schedule for later</button>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+      width: 320px;
+      height: 130px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 4px;
+      border-color: grey;
+    }
+    .home,.notifications,.messages{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .Home{
+      margin-top: 8px;
+      margin-bottom: 14px;
+    }
+    .count{
+      margin-top: 8px;
+      margin-bottom: 14px;
+      background-color: rgb(29, 161, 249);
+      padding-left: 10px;
+      padding-right: 10px;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 11px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="home">
+      <p class="Home">Home</p>
+      <p class="count">14</p>
+    </div>
+    <div class="notifications">
+      <p class="Home">Notifications</p>
+      <p class="count">3</p>
+    </div>
+    <div class="messages">
+      <p class="Home">Messages</p>
+      <p class="count">5</p>
+    </div>
+  </div>
+</body>
+</html>

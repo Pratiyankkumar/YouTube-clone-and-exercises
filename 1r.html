@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gmail</title>
+  <style>
+    body{
+      font-family: arial;
+    }
+    .title,.time,.time1,.time2{
+      display: inline-block;
+      margin-top: 2px;
+      margin-left: 8px;
+      margin-bottom: 0;
+    }
+    .time{
+      margin-left: 100px;
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+    .offer{
+      font-weight: bold;
+      font-size: 14px;
+      margin-left: 8px;
+      margin-top: 4px;
+      margin-bottom: 0;
+    }
+    .text{
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-left: 8px;
+      margin-top: 4px;
+    }
+    .cat-image{
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-color: transparent;
+      border-style: solid;
+      border-radius: 20px;
+    }
+    .container{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      width: 360px;
+      height: 270px;
+      border: none;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 4px;
+      border-color: transparent;
+      box-shadow: 0 0 6px  rgba(0, 0, 0, 0.3);
+    }
+    .container2{
+      display : flex;
+      flex-direction: row;
+    }
+    .all-inboxes{
+      margin-top: 8px;
+      margin-left: 14px;
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+    .title{
+      font-weight: bold;
+    }
+    .time1{
+      margin-left: 164px;
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+    .time2{
+      margin-left: 185px;
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inbox">
+      <p class="all-inboxes">ALL INBOXES</p>
+    </div>
+    <div class="container2">
+      <div class="image"><img src="cat.jpg" alt="" class="cat-image"></div>
+      <div class="content">
+        <p class="title">Chewy Promotions</p>
+        <p class="time">4:59 PM</p>
+        <p class="offer">Biggest sales of the year!</p>
+        <p class="text">Hey there! We're waiting to tell you about our...</p>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="image"><img src="dog.jpg" alt="" class="cat-image"></div>
+      <div class="content">
+        <p class="title">Best Buy</p>
+        <p class="time1">12:32 PM</p>
+        <p class="offer">Your Best Buy eReciept</p>
+        <p class="text">Thank you for shopping at Best Buy, here is ...</p>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="image"><img src="cat1.jpg" alt="" class="cat-image"></div>
+      <div class="content">
+        <p class="title">Netflix</p>
+        <p class="time2">9:00 AM</p>
+        <p class="offer">Here's what coming soon to Netflix</p>
+        <p class="text">Brand new movies and shows, old favorites...</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

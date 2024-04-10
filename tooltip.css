@@ -1,0 +1,42 @@
+.channel-picture .pop-up{
+  width: 250px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: absolute;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  opacity: 0;
+  transition: 0.2s;
+  pointer-events: none;
+  cursor: pointer;
+}
+.channel-picture:hover .pop-up{
+  opacity: 1;
+}
+.pop-up-channel-picture{
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 30px; 
+  margin-right: 4px;
+}
+.pop-up-channel-info{
+  display: flex;
+  flex-direction: column;
+}
+.pop-up-channel-name{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+.pop-up-channel-subs{
+  margin-left: 8px;
+  color: rgb(96, 96, 96);
+}

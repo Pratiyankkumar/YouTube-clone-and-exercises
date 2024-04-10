@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Followers</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .div1{
+      display: flex;
+      flex-direction: row;
+      width: 380px;
+    }
+    .cat-image{
+      width: 50px;
+      height: 50px;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 25px;
+      margin-right: 20px;
+      object-fit: cover;
+
+    }
+    .cat-name{
+      margin-top: 2px;
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+    .follow{
+      margin-left: 110px;
+    }
+    .cat-title{
+      width: 123px;
+      margin-top: 2px;   
+      margin-bottom: 0;
+      color: grey;
+    }
+    .tag{
+      margin-top: 1px;
+      color: grey;
+      font-size: 12px;
+    }
+    .follow{
+      background-color: rgb(29, 161, 249);
+      margin-top: 10px;
+      width: 70px;
+      height: 30px;
+      color: white;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    .follows{
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="div1">
+      <div class="image">
+        <img class="cat-image" src="cat1.jpg" alt="">
+      </div>
+
+      <div class="info">
+        <p class="cat-name">oliver</p>
+        <p class="cat-title">the cat</p>
+        <p class="tag">Popular</p>
+      </div>
+
+      <div class="follows">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+
+    <div class="div1">
+      <div class="image">
+        <img class="cat-image" src="cat.jpg" alt="">
+      </div>
+
+      <div class="info">
+        <p class="cat-name">Mimi</p>
+        <p class="cat-title">Sleepy cat</p>
+        <p class="tag">Popular</p>
+      </div>
+
+      <div class="follows">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+
+    <div class="div1">
+      <div class="image">
+        <img class="cat-image" src="dog.jpg" alt="">
+      </div>
+
+      <div class="info">
+        <p class="cat-name">Rex</p>
+        <p class="cat-title">Happy Bulldog</p>
+        <p class="tag">Popular</p>
+      </div>
+
+      <div class="follows">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

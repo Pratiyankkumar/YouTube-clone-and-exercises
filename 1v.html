@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook-header</title>
+  <style>
+    body{
+      background-color: black;
+      height: 3000px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .header{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height : 50px;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .cat-image{
+      margin-top: 4px;
+      height: 36px;
+      width: 36px;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 18px;
+    }
+    .image{
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+    }
+    .buttons{
+      display: flex;
+      flex-direction: row;
+      margin-right: 50px;
+    }
+    .cat-name{
+      margin-left: 4px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .button1{
+      width: 100px;
+      height: 30px;
+      background-color: rgb(66, 103, 178);
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 3px;
+      margin-right: 8px;
+    }
+
+    .button2{
+      width: 100px;
+      height: 30px;
+      background-color: rgba(96, 96, 96, 0.2);
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-style: solid;
+      border-color: transparent;
+      border-radius: 3px;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+
+    <div class="image">
+      <img class="cat-image" src="cat1.jpg" alt="">
+      <p class="cat-name">Oliver cat</p>
+    </div>
+
+    <div class="buttons">
+      <button class="button1">Add Friend</button>
+      <button class="button2">Message</button>
+    </div>
+
+  </div>
+</body>
+</html>
